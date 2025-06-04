@@ -15,3 +15,12 @@ USE apify;
 -- INSERT INTO products (
 --     name, price, stock, description
 -- ) VALUES ('laptop', 1000.00, 4, 'laptop gaming')
+
+-- UPDATE products
+-- SET name = 'some product' , price = 25.00, stock = 9, description = 'some description'
+-- WHERE id = 1
+
+
+-- UPDATE products
+-- SET name = @name, price = @price, stock = @stock, descripion = @description
+-- WHERE id = @id
